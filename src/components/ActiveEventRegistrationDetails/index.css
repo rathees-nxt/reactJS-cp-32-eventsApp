@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.event-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100vh;
+  padding: 10px;
+}
+.status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.status-img {
+  width: 200px;
+}
+.para {
+  font-family: roboto;
+  font-size: 16px;
+  color: #475569;
+}
+.button {
+  background-color: #0967d2;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+@media screen and (min-width: 768px) {
+  .event-status-container {
+    padding: 10px 30px;
+  }
+  .status-img {
+    width: 400px;
+  }
+  .para {
+    font-size: 18px;
+  }
+}

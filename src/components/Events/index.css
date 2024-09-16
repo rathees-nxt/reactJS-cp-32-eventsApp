@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  background-color: #3a4b63;
+}
+.events-container {
+  width: 60%;
+  height: 100vh;
+  padding: 10px;
+  color: #ffffff;
+}
+.event-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.heading {
+  font-family: roboto;
+  font-size: 21px;
+  font-weight: bold;
+  padding-left: 70px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
